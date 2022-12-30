@@ -2,8 +2,6 @@
 
 Report when the document is updated.
 
-Try the <a href="http://www.woollymittens.nl/default.php?url=useful-informer">demo</a>.
-
 ## How to include the script
 
 This include can be added to the header or placed inline before the script is invoked.
