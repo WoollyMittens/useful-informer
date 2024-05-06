@@ -1,5 +1,7 @@
 # informer.js: React to changes
 
+*DEPRICATION WARNING: the functionality in this script has been superceeded / trivialised by updated web standards.*
+
 Report when the document is updated.
 
 ## How to include the script
@@ -20,10 +22,10 @@ requirejs([
 });
 ```
 
-Or import into an MVC framework.
+Or use imported as a component in existing projects.
 
 ```js
-var informer = require('js/informer.js');
+@import {informer} from "js/informer.js";
 ```
 
 ## How to start the script
@@ -73,4 +75,4 @@ The following commands are available for development:
 
 ## License
 
-This work is licensed under a [MIT License](https://opensource.org/licenses/MIT). The latest version of this and other scripts by the same author can be found on [Github](https://github.com/WoollyMittens) and at [WoollyMittens.nl](https://www.woollymittens.nl/).
+This work is licensed under a [MIT License](https://opensource.org/licenses/MIT). The latest version of this and other scripts by the same author can be found on [Github](https://github.com/WoollyMittens).
